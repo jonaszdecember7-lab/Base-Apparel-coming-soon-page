@@ -12,23 +12,30 @@
 </head>
 <body>
 <main>
-  
-    <h1>We're coming soon</h1>
-  
-    <p>
-      Hello fellow shoppers! We're currently building our new fashion store.
-      Add your email below to stay up-to-date with announcements and our launch deals.
-    </p>
-  
-    <input type="email" id="email" pattern=".+@example\.com" size="30" placeholder="Email Address" required />
+    <div class="product-details">
+          <img class="logo" src="images/logo.svg" alt="logo">
 
+      <h1><span>We're</span> coming soon</h1>
+      <p>
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+      
+      <form>
+        <div class="input-wrapper">
+          <input type="email" id="email" pattern=".+@example\.com" size="30" placeholder="Email Address" required />
+          <button type="submit" class="send-button">
+            <img src="images/icon-arrow.svg" alt="submit">
+          </button>
+        </div>
+      </form>
+     <p class="error-message"></p>
+
+    </div>
+<img class="product-image" src="images/hero-desktop.jpeg" alt="Model wearing Base Apparel clothing">
   
 </main>
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+ 
+  <script src="script.js"></script>
 </body>
 </html>
