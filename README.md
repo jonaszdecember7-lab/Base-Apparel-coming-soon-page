@@ -1,6 +1,7 @@
 # Frontend Mentor - Base Apparel coming soon page
 
 ![Design preview for the Base Apparel coming soon page coding challenge](preview.jpg)
+View page here: https://jonaszdecember7-lab.github.io/Base-Apparel-coming-soon-page/
 
 ## Welcome! 👋
 
